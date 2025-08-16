@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #001ed4;
+}
+
+.game {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.game h1 {
+  font-size: 2rem;
+  color: #001e4d;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+}
+
+.quiz {
+  font-size: 18px;
+  color: #001ed4;
+  font-weight: 600;
+}
+
+#answer-buttons {
+  margin-bottom: .5rem;
+}
+
+#question {
+  padding: 20px 0;
+}
+
+.btn {
+  background-color: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: .5rem;
+}
+
+.btn:hover:not([disabled]){
+  color: #001ed4;
+  font-weight: 700;
+  transition: 1.5s;
+ }
+
+ /* When corrct answer is gotten, cursor is disabled for incorrect answers */
+ .btn:disabled {
+  cursor: no-drop;
+ }
+
+#next-btn {
+  background: #001ed4;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  display: none;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
+
+
+#game-over {
+ background: #001ed4;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+
